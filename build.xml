@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project default="run" name="Jenkins Prj">
+	<target name="run" depends="compile">
+		<echo>Running..</echo>
+	</target>
+	<target name="compile">
+		<echo>Compiling..</echo>
+		<javac srcdir="./src" destdir="staging"></javac>
+	</target>
+</project>
